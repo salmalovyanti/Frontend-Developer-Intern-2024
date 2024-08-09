@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suitmedia Ideas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="Suit media logo" class="logo">
+        <nav class="nav-bar">
+            <a href="#" class="nav-menu" data-page="work">Work</a>
+            <a href="#" class="nav-menu" data-page="about">About</a>
+            <a href="#" class="nav-menu" data-page="services">Services</a>
+            <a href="#" class="nav-menu active" data-page="ideas">Ideas</a>
+            <a href="#" class="nav-menu" data-page="careers">Careers</a>
+            <a href="#" class="nav-menu" data-page="contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Ideas</h1>
+            <p>Where all our great things begin</p>
+        </div>
+    </section>
+
+    <section class="posts">
+        <div class="post-filters">
+            <div class="post-sorts" id="post-count">
+                <p>Showing 1 - 10 of 100</p>
+            </div>
+            <div class="post-sorts">
+                <p>Show per page:</p>
+                <select id="per-page">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                </select>
+                <p>Sort by:</p>
+                <select id="sort-order">
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="post-list">
+            <div class="post-card">
+                <img class="lazyload" src="img2.jpg" alt="Post Thumbnail">
+                <div class="post-details">
+                    <p class="post-date">5 September 2022</p>
+                    <h3 class="post-title">Kenali Tingkatan Influencers berdasarkan Jumlah Followers</h3>
+                </div>
+            </div>
+            <div class="post-card">
+                <img class="lazyload" src="img3.jpg" alt="Post Thumbnail">
+                <div class="post-details">
+                    <p class="post-date">9 September 2022</p>
+                    <h3 class="post-title">Jangan Asal Pilih Influencer, Berikut Cara Menyusun Strategi Influencer Dengan Benar Agar Followers Ikut Meningkat</h3>
+                </div>
+            </div>
+            <div class="post-card">
+                <img class="lazyload" src="img2.jpg" alt="Post Thumbnail">
+                <div class="post-details">
+                    <p class="post-date">5 September 2022</p>
+                    <h3 class="post-title">Kenali Tingkatan Influencers berdasarkan Jumlah Followers</h3>
+                </div>
+            </div>
+            <div class="post-card">
+                <img class="lazyload" src="img3.jpg" alt="Post Thumbnail">
+                <div class="post-details">
+                    <p class="post-date">5 September 2022</p>
+                    <h3 class="post-title">Jangan Asal Pilih Influencer, Berikut Cara Menyusun Strategi Influencer Dengan Benar Agar Followers Ikut Meningkat</h3>
+                </div>
+            </div>
+            <div class="post-card">
+                <img class="lazyload" src="img2.jpg" alt="Post Thumbnail">
+                <div class="post-details">
+                    <p class="post-date">5 September 2022</p>
+                    <h3 class="post-title">Kenali Tingkatan Influencers berdasarkan Jumlah Followers</h3>
+                </div>
+            </div>
+            <div class="post-card">
+                <img class="lazyload" src="img3.jpg" alt="Post Thumbnail">
+                <div class="post-details">
+                    <p class="post-date">5 September 2022</p>
+                    <h3 class="post-title">Jangan Asal Pilih Influencer, Berikut Cara Menyusun Strategi Influencer Dengan Benar Agar Followers Ikut Meningkat</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <span class="page-number active">1</span>
+            <span class="page-number">2</span>
+            <span class="page-number">3</span>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="api.js"></script>
+</body>
+</html>
